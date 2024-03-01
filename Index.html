@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder Template</title>
+   
+</head>
+<body>
+    
+    <div class="main">
+        <form>
+            <div class="regform">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="Name">
+                <h2 class="name">Name</h2>
+                <input type="text" class="firstname" placeholder="firstname" required>
+                <input type="text" class="lastname" placeholder="lastname" required>
+            </div>
+            <h2 class="Age">Age</h2>
+            <input type="number" class="age" placeholder="age" required>
+
+            <h2 class="Degree">Degree</h2>
+            <select class="degree">
+                <option>B.E</option>
+                <option>B.SC</option>
+                <option>BCA</option>
+            </select>
+
+            <h2 class="Gender">Gender</h2>
+            <select class="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <h2 class="address">Current Address</h2>
+            <textarea cols="80" rows="10" placeholder="Current Address" required></textarea><br><br>
+            <h2 for="myfile" class="dropdown">Drop your Resume</h2>
+            <input type="file" id="myfile" name="myfile"><br><br>
+
+            <h2 class="E-mail">E-mail</h2>
+            <input type="email" class="email" placeholder="e.g. zzzz@gmail.com" required>
+
+            <h2 class="Phone">Phone</h2>
+            <select class="phone">
+                <option value="number">+91</option>
+                <!-- Add other options as needed -->
+            </select>
+            <input type="text" class="number" placeholder="phone number" required>
+
+            <h2 class="Password">Password</h2>
+            <input type="password" class="pass1" placeholder="Enter password" required>
+            <input type="password" class="pass2" placeholder="Re-enter password" required><br>
+
+            <h2 class="activities">Extracurricular activities</h2>
+            <!-- Checkboxes -->
+          
+            <input type="checkbox" name="Extracurricular1" value="sports">Sports<br>
+            <input type="checkbox" name="Extracurricular2" value="Music" >Music<br>
+            <input type="checkbox" name="Extracurricular3" value="Dance">Dance<br>
+            <input type="checkbox" name="Extracurricular4" value="Creative writing">Creative writing<br>
+            <input type="checkbox" name="Extracurricular5" value="Others" >Others<br>
+
+            <p class="condition"><input type="checkbox" id="terms" required>I accept the terms and conditions</p><br>
+
+            <input type="submit" class="btn" value="Register">
+        </form>
+    </div>
+</body>
+</html>
